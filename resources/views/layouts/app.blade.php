@@ -7,19 +7,99 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'BOOKS BD | ONLINE BOOK SELLER') }}</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
+    <!-- Fontawesome CDN Goes Here -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <!-- Styles -->
     <link href="{{ asset('frontend/css/bootstrap5.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 
+        {{-- Custom CSS --}}
+            <style>
+                .card {
+                    height: 100%;
+                }
 
+                .card-title {
+                    font-size: 0.875rem;
+                }
+
+                .card-body {
+                    padding: 1rem !important;
+                }
+
+                .custom-image-size {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    border: 1px solid #ccc;
+                    margin: 8px auto;
+                    display: block;
+                }
+
+                .social-login {
+                    height: 50px;
+                    width: 50px;
+                    border: 1px solid #e6e6e6 !important;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .google:hover {
+                    background-color: #db3236;
+                    transition: 0.5s;
+                }
+
+                .facebook:hover {
+                    background-color: #3b5998;
+                }
+
+                .twitter:hover {
+                    background-color: #00acee;
+                }
+
+                .google:hover,
+                .facebook:hover,
+                .twitter:hover i {
+                    color: white;
+                }
+
+                .fab {
+                    font-size: 1rem;
+                }
+
+
+                /* Small devices (landscape phones, 576px and up) */
+                @media (max-width: 576px) {
+                    .div-custom-padding {
+                        padding: 1.85rem !important;
+                    }
+
+                    .custom-paragraph {
+                        text-align: justify;
+                    }
+
+                    .col-sm-6 {
+                        width: 50% !important;
+                    }
+
+                    .card-title {
+                        font-size: 0.8rem;
+                    }
+                }
+            </style>
 
 
 </head>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BOOKS BD | ONLINE BOOK SELLER</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -128,22 +128,7 @@
                 </div>
             </div>
         </div>
-
-
-        //SSL Commerz Script Start
-        <script>
-            (function (window, document) {
-                var loader = function () {
-                    var script = document.createElement("script"), tag = document.getElementsByTagName("script")[0];
-                    script.src = "https://sandbox.sslcommerz.com/embed.min.js?" + Math.random().toString(36).substring(7);
-                    tag.parentNode.insertBefore(script, tag);
-                };
-        
-                window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
-            })(window, document);
-        </script>
-
-        //SSL Commerz Script End
-        
     </body>
+
+    
 </html>
